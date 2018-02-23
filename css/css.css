@@ -1,0 +1,218 @@
+#header {
+	background-image: url("../img/toxic.jpg");
+}
+
+.section {
+	background-color: #FFFFFF;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.img-circle {
+	border: 3px solid white;
+	border-radius: 50px;
+}
+
+#header img {
+	display: block;
+	width: 700px;
+	height: 400px;
+	margin: auto;
+}
+
+#header h1 {
+	font-size: 25pt;
+	color: orange;
+	padding-top: 5px;
+	margin: 0;
+	font-weight: bolder;
+	text-align: center;
+	font-family: "comic sans ms";
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.quote1 {
+	float: right;
+	font-size: 25pt;
+	font-family:"Cracked Johnnie";
+	color: blue;
+	text-shadow: 0.5em 0.5em 5px rgb(100,100,100);
+
+
+}
+
+body {
+	background-image:-webkit-linear-gradient(left,rgb(0,64,0),
+		rgb(0,128,0),rgb(0,255,0),rgb(128,255,0),rgb(128,255,128),
+		rgb(0,255,128),rgb(0,128,64),rgb(0,128,64));
+}
+
+
+#myprofile {
+	text-align: center;
+	text-shadow: 0.5em 0.5em 5px rgb(100,100,100);
+	color: red;
+	font-size: 30pt;
+}
+
+#profile1 {
+    top: 200px;
+    background-color: #4CAF50;
+}
+
+#photo1 {
+    top: 260px;
+    background-color: #2196F3;
+}
+
+#aboutme1 {
+    top: 320px;
+    background-color: #f44336;
+}
+
+
+.logo {
+	position: absolute;
+	left: 80px;
+	top: 20px;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+
+
+#click {
+	font-size:30px; 
+	cursor:pointer; 
+	a:active:onclick="openNav()">&#9776;
+	color: rgb(255,255,255);
+}
+
+
+.fotoprofil {
+	float: left;
+	width: 400px;
+	height: 350px;
+	margin-right: 40px;
+}
+
+#profiletext {
+	color: red;
+}
+
+#profile {
+	color: rgb(166,0,4);
+	font-family: "brush script mt";
+	font-size: 13pt;
+	float: both;
+}
+
+#fotohead {
+	text-align: center;
+	color: rgb(0,255,0);
+	font-size: 30pt;
+	font-family: harrington;
+	text-shadow: 0.5em 0.5em 5px rgb(100,100,100);
+}
+
+.captfont {
+	font-weight: bold;
+	font-family: forte;
+	position: static;
+}
+
+.photosize {
+	width: 300px;
+	height: 200px;
+	
+}
+
+.float_left {
+	float: left;
+}
+
+#aboutmehead {
+	text-align: center;
+	color: blue;
+	font-size: 30pt;
+	clear: both;
+	float: none;
+	padding-top: 70px;
+	font-family: jokerman;
+	text-shadow: 0.5em 0.5em 5px rgb(100,100,100);
+}
+
+.indent {
+	text-indent: 50px;
+	text-align: left;
+	font-size: 15pt;
+}
+
+#left {
+	float: left;
+	margin-right: 25px;
+}
+
+
+.indent {
+	text-indent: 10px;
+}
+
+.abs {
+	font-size: 15pt;
+}
+
+#hobby {
+	text-align: center;
+	text-shadow: 0.5em 0.5em 5px rgb(100,100,100);
+	color: red;
+	font-size: 30pt;
+}
+
+#contact {
+	text-align: center;
+	color: rgb(255,0,0);
+	font-size: 30pt;
+	font-family: harrington;
+	text-shadow: 0.5em 0.5em 5px rgb(100,100,100);
+}
+
